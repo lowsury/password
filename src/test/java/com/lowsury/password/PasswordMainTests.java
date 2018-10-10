@@ -5,7 +5,7 @@ import org.junit.Test;
 public class PasswordMainTests {
 
     @Test
-    public void generatePwd1() {
+    public void generatePwd() {
         new PasswordMain().generatePwd(null, 12);
         new PasswordMain().generatePwd(new char[]{'3'}, 12);
     }
